@@ -69,7 +69,7 @@ For the best experience with this theme, consider the following settings:
 
 ## Feedback
 
-If you have suggestions or issues with this theme, please [open an issue](https://github.com/yourusername/vscode-kortin-theme/issues) on the GitHub repository.
+If you have suggestions or issues with this theme, please [open an issue](https://github.com/kortin1999/vscode-kortin-theme/issues) on the GitHub repository.
 
 ## License
 
