@@ -1,0 +1,48 @@
+{
+  "name": "kortin-theme",
+  "displayName": "Kortin Theme",
+  "description": "Kortin's fantasy theme for Visual Studio Code",
+  "version": "0.1.0",
+  "author": {
+    "name": "Kortin Zhou",
+    "email": "hi@kortin.cn",
+    "url": "https://kortin.me"
+  },
+  "publisher": "kortin1999",
+  "scripts": {
+    "publish": "vsce publish"
+  },
+  "engines": {
+    "vscode": "^1.47.0"
+  },
+  "icon": "logo.png",
+  "galleryBanner": {
+    "color": "#232323",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "kortin",
+    "color-theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kortin Theme (Fantasy)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fantasy-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kortin99/vscode-kortin-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kortin99/vscode-kortin-theme/issues"
+  }
+}
