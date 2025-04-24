@@ -9,7 +9,7 @@
 <p align="center">
   <strong>Kortin's fantasy theme for Visual Studio Code</strong>
 </p>
-w
+
 <p align="center">
   <img src="https://img.shields.io/badge/PRs-welcome-%23DA70D6.svg" alt="PRs welcome!" />
   <img alt="License" src="https://img.shields.io/badge/license-MIT-%23DA70D6">
