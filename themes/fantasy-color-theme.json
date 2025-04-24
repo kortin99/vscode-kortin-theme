@@ -31,7 +31,7 @@
 		"editor.findMatchHighlightBackground": "#88c0d044",
 		"editor.findRangeHighlightBackground": "#ffffff33",
 		"editor.foreground": "#d8dee9",
-		"editor.hoverHighlightBackground": "#292929",
+		"editor.hoverHighlightBackground": "#29292965",
 		"editor.inactiveSelectionBackground": "#40404077",
 		"editor.lineHighlightBackground": "#292929",
 		"editor.lineHighlightBorder": "#292929",
@@ -49,7 +49,7 @@
 		"editorCursor.foreground": "#ffffff",
 		"editorError.border": "#bf616a00",
 		"editorError.foreground": "#bf616a",
-		"editorGroup.border": "#2a2a2a00",
+		"editorGroup.border": "#4f4d4d54",
 		"editorGroup.dropBackground": "#2a2a2a99",
 		"editorGroup.emptyBackground": "#000000",
 		"editorGroupHeader.noTabsBackground": "#000000",
@@ -61,8 +61,8 @@
 		"editorGutter.modifiedBackground": "#ebcb8b",
 		"editorHoverWidget.background": "#101010",
 		"editorHoverWidget.border": "#2a2a2a",
-		"editorIndentGuide.activeBackground": "#505050",
-		"editorIndentGuide.background": "#404040b3",
+		"editorIndentGuide.activeBackground1": "#505050",
+		"editorIndentGuide.background1": "#404040b3",
 		"editorInlayHint.background": "#00000000",
 		"editorInlayHint.foreground": "#505050",
 		"editorInlayHint.parameterBackground": "#00000000",
@@ -110,7 +110,6 @@
 		"gitDecoration.ignoredResourceForeground": "#505050",
 		"gitDecoration.modifiedResourceForeground": "#ebcb8b",
 		"gitDecoration.untrackedResourceForeground": "#88c0d0",
-		"gitlens.trailingLineForegroundColor": "#cccccc99",
 		"input.background": "#2a2a2a55",
 		"input.border": "#2a2a2a",
 		"input.foreground": "#ffffff",
@@ -978,7 +977,7 @@
 			"scope": [
 				"keyword",
 				"storage",
-				"support",
+				"support.type",
 				"entity.name.tag",
 				"variable.language",
 				"keyword.control.flow",
@@ -1000,6 +999,15 @@
 			],
 			"settings": {
 				"foreground": "#A277FF"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.support.type.property-name.begin",
+				"punctuation.support.type.property-name.end",
+			],
+			"settings": {
+				"foreground": "#594b79"
 			}
 		},
 		{
@@ -1092,6 +1100,7 @@
 			"scope": [
 				"variable.other.constant",
 				"variable.parameter",
+				"variable.css",
 			],
 			"settings": {
 				"foreground": "#EDECEE"
@@ -1110,7 +1119,6 @@
 				"markup.list",
 				"support.constant.property-value.css",
 				"variable.parameter.keyframe-list.css",
-				"source.css",
 				"support.constant.font-name",
 				"support.constant.vendored.property-value",
 				"meta.class",
