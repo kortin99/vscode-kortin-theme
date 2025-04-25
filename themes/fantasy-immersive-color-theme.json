@@ -914,17 +914,6 @@
   "tokenColors": [
     {
       "scope": [
-        "support.type.property-name.css",
-        "meta.property-name.scss",
-        "source.css.scss"
-      ],
-      "settings": {
-        "foreground": "#A277FF",
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "scope": [
         "keyword.operator.comparison",
         "keyword.control.loop.js",
         "keyword.control.loop.ts",
@@ -983,7 +972,6 @@
         "keyword.control.flow",
         "storage.modifier",
         "keyword.operator",
-        "entity.other.attribute-name.class.css",
         "entity.other.keyframe-offset",
         "markup.heading",
         "markup.underline.link",
@@ -1150,10 +1138,19 @@
     {
       "scope": [
         "entity.other.attribute-name.class",
+        "entity.name.tag.css",
         "string.quoted.double.html",
       ],
       "settings": {
         "foreground": "#FFCA85"
+      }
+    },
+    {
+      "scope": [
+        "meta.property-value"
+      ],
+      "settings": {
+        "foreground": "#ECECEC"
       }
     },
     {
@@ -1184,7 +1181,6 @@
         "punctuation.quasi.element.end",
         "entity.other.inherited-class",
         "variable.other.constant.elixir",
-        "entity.other.attribute-name.class.css",
         "support.class.dart"
       ],
       "settings": {
@@ -1309,7 +1305,13 @@
     {
       "scope": [
         "punctuation.separator.dictionary.key-value.json",
-        "punctuation.separator.dictionary.pair.json"
+        "punctuation.separator.dictionary.pair.json",
+        "punctuation.separator.key-value.less",
+        "punctuation.terminator.rule.less",
+        "punctuation.separator.key-value.scss",
+        "punctuation.terminator.rule.scss",
+        "punctuation.separator.key-value.css",
+        "punctuation.terminator.rule.css",
       ],
       "settings": {
         "foreground": "#ececec7c"
