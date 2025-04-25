@@ -1013,6 +1013,7 @@
         "markup.inline.raw.string.markdown",
         "entity.other.attribute-name.id.css",
         "meta.jsx.children",
+        "meta.tag.attributes.tsx",
         "JSXNested"
       ],
       "settings": {
@@ -1026,9 +1027,6 @@
         "entity.name.function",
         "entity.name.function.elixir",
         "entity.name.function-call.elixir",
-        "support.class.component",
-        "support.class.component.open",
-        "support.class.component.close",
         "meta.function-call.generic.python",
         "entity.name.section.markdown",
         "storage.type.annotation.dart",
@@ -1077,14 +1075,6 @@
       ],
       "settings": {
         "foreground": "#61FFCA"
-      }
-    },
-    {
-      "scope": [
-        "string.template"
-      ],
-      "settings": {
-        "foreground": "#34ffbb"
       }
     },
     {
@@ -1142,13 +1132,6 @@
     {
       "scope": [
         // "markup.list",
-      ],
-      "settings": {
-        "foreground": "#F694FF"
-      }
-    },
-    {
-      "scope": [
         "markup.bold.markdown"
       ],
       "settings": {
@@ -1166,8 +1149,8 @@
     },
     {
       "scope": [
+        "entity.other.attribute-name.class",
         "string.quoted.double.html",
-        "entity.other.attribute-name"
       ],
       "settings": {
         "foreground": "#FFCA85"
@@ -1289,6 +1272,17 @@
         "foreground": "#61FFCA"
       }
     },
+    // react
+    {
+      "scope": [
+        "string.quoted.single.tsx",
+        "string.quoted.double.tsx",
+        "string.template"
+      ],
+      "settings": {
+        "foreground": "#ECECEC"
+      }
+    },
     // ===============================
     // immersive punctuation
     // ===============================
@@ -1301,17 +1295,12 @@
         "punctuation.definition.string.template.begin",
         "punctuation.definition.string.template.end",
         "punctuation.separator.key-value.html",
+        "punctuation.separator.key-value.tsx",
         "punctuation.definition.tag",
         "punctuation.terminator.statement",
-        "punctuation.separator.comma"
-      ],
-      "settings": {
-        "foreground": "#f694ff70"
-      }
-    },
-    {
-      "scope": [
-        "punctuation.definition.block"
+        "punctuation.separator.comma",
+        "punctuation.definition.block",
+        "keyword.operator.assignment.tsx",
       ],
       "settings": {
         "foreground": "#f694ff70"
@@ -1333,14 +1322,6 @@
       ],
       "settings": {
         "foreground": "#61ffca70"
-      }
-    },
-    {
-      "scope": [
-        "punctuation.separator.key-value.html"
-      ],
-      "settings": {
-        "foreground": "#f694ff70"
       }
     },
     {
