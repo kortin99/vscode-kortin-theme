@@ -2,7 +2,7 @@
   "name": "kortin-theme",
   "displayName": "Kortin Theme",
   "description": "Kortin's fantasy theme for Visual Studio Code",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": {
     "name": "Kortin Zhou",
     "email": "hi@kortin.cn",
@@ -32,9 +32,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Kortin Theme (Fantasy)",
+        "label": "Kortin Theme Fantasy (immersive)",
         "uiTheme": "vs-dark",
-        "path": "./themes/fantasy-color-theme.json"
+        "path": "./themes/fantasy-immersive-color-theme.json"
       }
     ]
   },
