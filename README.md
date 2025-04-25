@@ -26,17 +26,21 @@
 > 🚧 WIP: Still in progress!
 
 ## Screenshots
-**Fantasy**
+**Fantasy (immersive)**
 
 <p align="center">
   <img alt="Fantasy screenshot" src="./screenshots/fantasy.png" />
 </p>
+
+More language screenshot please see [screenshots](https://github.com/kortin99/vscode-kortin-theme/tree/main/screenshots)
 
 ## Features
 
 - **High contrast design** - Better differentiation between code tokens for improved readability
 - **De-emphasized punctuation** - Reduced visual prominence of non-essential punctuation for improved focus
 - **Immersive dark theme** - Deep, rich colors create an immersive coding environment
+  <img alt="Fantasy immersive example" src="./screenshots/immersive.png" width="500px" />
+
 
 ## Installation
 
@@ -54,22 +58,10 @@ For the best experience with this theme, consider the following settings:
 {
   "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 14,
-  "editor.lineHeight": 22,
+  "editor.lineHeight": 2,
   "editor.fontLigatures": true
 }
 ```
-
-## Contributing
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request
-
-## Feedback
-
-If you have suggestions or issues with this theme, please [open an issue](https://github.com/kortin1999/vscode-kortin-theme/issues) on the GitHub repository.
 
 ## License
 

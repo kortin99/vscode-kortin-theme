@@ -4,6 +4,13 @@ All notable changes to the "kortin-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.5] - 2025-04-24
+
+### Release
+
+- Rename **Kortin Theme (Fantasy)** to **Kortin Theme Fantasy (immersive)**
+- More immersive supports for JSON, CSS and React TSX
+
 ## [0.1.1] - 2025-04-24
 
 ### Release
