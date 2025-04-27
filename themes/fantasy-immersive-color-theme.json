@@ -1027,7 +1027,7 @@
     {
       "scope": [
         "invalid",
-        "markup.deleted"
+        "markup.deleted",
       ],
       "settings": {
         "foreground": "#ff5f5f"
@@ -1049,7 +1049,9 @@
         "constant.language.symbol.elixir",
         "variable.graphql",
         "meta.attribute.python",
-        "source.dart"
+        "source.dart",
+        "variable.other.go",
+        "variable.other.constant.go",
       ],
       "settings": {
         "foreground": "#F694FF"
@@ -1059,7 +1061,10 @@
       "scope": [
         "variable.other.object",
         "variable.other.readwrite",
-        "support.constant.property-value"
+        "support.constant.property-value",
+        "variable.parameter",
+        "variable.other.assignment.go",
+        "meta.definition.variable.tsx",
       ],
       "settings": {
         "foreground": "#61FFCA"
@@ -1067,8 +1072,6 @@
     },
     {
       "scope": [
-        "variable.other.constant",
-        "variable.parameter",
         "variable.css"
       ],
       "settings": {
@@ -1085,7 +1088,8 @@
     },
     {
       "scope": [
-        "constant.language.boolean.true"
+        "constant.language.boolean.true",
+        "constant.numeric.decimal",
       ],
       "settings": {
         "foreground": "#6bb2e8"
@@ -1093,7 +1097,8 @@
     },
     {
       "scope": [
-        "constant.language.boolean.false"
+        "constant.language.boolean.false",
+        "constant.language.null",
       ],
       "settings": {
         "foreground": "#ec69b7"
@@ -1330,7 +1335,8 @@
       "scope": [
         "punctuation.definition.tag",
         "punctuation.terminator.statement",
-        "punctuation.separator.comma"
+        "punctuation.separator.comma",
+        "punctuation.other.comma.go",
       ],
       "settings": {
         "foreground": "#636363"
