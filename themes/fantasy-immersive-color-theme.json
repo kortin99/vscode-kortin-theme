@@ -1052,6 +1052,7 @@
         "source.dart",
         "variable.other.go",
         "variable.other.constant.go",
+        "variable.other.assignment.shell"
       ],
       "settings": {
         "foreground": "#F694FF"
@@ -1065,6 +1066,7 @@
         "variable.parameter",
         "variable.other.assignment.go",
         "meta.definition.variable.tsx",
+        "variable.other.normal.shell"
       ],
       "settings": {
         "foreground": "#61FFCA"

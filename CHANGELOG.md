@@ -4,6 +4,12 @@ All notable changes to the "kortin-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.7] - 2025-05-14
+
+### Release
+
+- Added color support for Shell scripts
+
 ## [0.1.6] - 2025-04-24
 
 ### Release
