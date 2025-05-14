@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="./logo.png" alt="Aura Dracula Spirit Logo" width="100">
+  <img src="./logo.png" alt="logo" width="100">
   <br>
   Kortin Theme for <a href="https://code.visualstudio.com/">VS Code</a>
   <br>
@@ -38,9 +38,8 @@ More language screenshot please see [screenshots](https://github.com/kortin99/vs
 
 - **High contrast design** - Better differentiation between code tokens for improved readability
 - **De-emphasized punctuation** - Reduced visual prominence of non-essential punctuation for improved focus
-- **Immersive dark theme** - Deep, rich colors create an immersive coding environment
   <img alt="Fantasy immersive example" src="./screenshots/immersive.png" width="500px" />
-
+- **Immersive dark theme** - Deep, rich colors create an immersive coding environment
 
 ## Installation
 
