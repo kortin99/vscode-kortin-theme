@@ -938,8 +938,8 @@
         "storage.modifier.async"
       ],
       "settings": {
-        "foreground": "#F694FF",
-        "fontStyle": "italic"
+        "fontStyle": "italic",
+        "foreground": "#F694FF"
       }
     },
     {
@@ -1297,8 +1297,9 @@
         "punctuation.definition.string.end",
         "punctuation.definition.string.template.begin",
         "punctuation.definition.string.template.end",
+        "punctuation.separator.dictionary.key-value.json",
         "punctuation.separator.key-value.html",
-        "punctuation.separator.key-value.tsx",
+        "punctuation.separator.key-value",
         "punctuation.definition.tag",
         "punctuation.terminator.statement",
         "punctuation.separator.comma",
@@ -1311,7 +1312,6 @@
     },
     {
       "scope": [
-        "punctuation.separator.dictionary.key-value.json",
         "punctuation.separator.dictionary.pair.json",
         "punctuation.separator.key-value.less",
         "punctuation.terminator.rule.less",
